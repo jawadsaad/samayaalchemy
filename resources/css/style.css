@@ -1,0 +1,176 @@
+html {
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    color: #555555;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 25px;
+    font-weight: 700;
+}
+
+p {
+    margin: 25px;
+    line-height: 1.2;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    transition: all 300ms ease-out;
+}
+
+.scrolled {
+    background-color: #ffffff;
+}
+
+.logoBox {
+    width: 75px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #d3a60f;
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.navbar ul li {
+    padding: 0 10px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 300ms ease-out;
+}
+
+.navbar ul li:hover {
+    background-color: #d3a60f;
+    color: #ffffff;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(../images/cold-snow-white-60561.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .logoBox {
+    width: 17.5%;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 25px;
+    color: #d3a60f;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    padding: 0 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3a60f;
+    background-color: transparent;
+    border: 2px solid #d3a60f;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+}
+
+.button:hover {
+    padding: 0 20px;
+    letter-spacing: 2px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutCBD {
+    flex-direction: column;
+}
+
+.productCategories {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d3a60f;
+    padding: 3%;
+}
+
+.productCategory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+}
+
+.productCategory:hover {
+    transform: scale(1.05) translateY(-10px);    
+}
+
+.productCategory p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.categoryIcon {
+    width: 100px;
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+}
+
+.flipped {
+    transform: rotate(180deg);
+}
